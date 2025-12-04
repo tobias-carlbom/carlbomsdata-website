@@ -1,0 +1,49 @@
+components: []
+container:
+  properties:
+    html: |-
+      <style>
+          html, body {
+              margin: 0;
+              padding: 0;
+              height: 100%;
+          }
+          #background {
+              position: fixed;
+              inset: 0;
+              z-index: -1;
+          }
+          main {
+              position: relative;
+              min-height: 100vh;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              color: white;
+              font-family: system-ui, sans-serif;
+          }
+      </style>
+
+      <main>
+          <div id="background"></div>
+          <article>
+              <h1>Stay tuned!</h1>
+              <h3>Site is getting a rework.</h3>
+          </article>
+      </main>
+
+      <script>
+          VANTA.NET({
+              el: "#background",
+              mouseControls: true,
+              touchControls: true,
+              gyroControls: false,
+              minHeight: 200.00,
+              minWidth: 200.00,
+              scale: 1.00,
+              scaleMobile: 1.00,
+              color: 0xFFA23A
+          })
+      </script>
+  type: HtmlTemplate
+is_package: true

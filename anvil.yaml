@@ -1,8 +1,12 @@
 allow_embedding: false
-name: Custom HTML 9
-package_name: Custom_HTML_9
+name: Carlboms Data AB
+package_name: Carlboms_Data_AB
 runtime_options:
   client_version: '3'
   server_spec: {base: python310-minimal}
   version: 3
-services: []
+services:
+- client_config: {}
+  server_config: {}
+  source: /runtime/services/tables.yml
+startup_form: Form1

@@ -42,7 +42,7 @@ container:
               minWidth: 200.00,
               scale: 1.00,
               scaleMobile: 1.00,
-              color: 0xFFA23A
+              color: 0xFF9500
           })
       </script>
   type: HtmlTemplate
